@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Laura Sofía Agudelo Morales, coder de Riwi en formación como desarrolladora de software.">
+  <title>Laura Agudelo | Perfil</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body class="min-h-screen flex flex-col">
+
+
+  <header class="bg-gradient-to-br from-[var(--titulos)] to-[var(--enlaces-hover)] text-center text-white py-10 md:py-16">
+    <div class="max-w-3xl mx-auto px-4">
+      <img class="w-32 h-32 md:w-40 md:h-40 lg:w-44 lg:h-44 object-cover rounded-full border-4 border-white shadow-xl mx-auto mb-4"
+           src="img/foto-perfil.png" alt="Foto de perfil de Laura">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-semibold">Laura Sofía Agudelo Morales</h1>
+      <p class="text-base sm:text-lg lg:text-xl mt-2">Estudiante de desarrollo de software que disfruta aprender cosas nuevas.</p>
+    </div>
+  </header>
+
+  <main class="flex-1 w-full max-w-3xl lg:max-w-5xl mx-auto px-4 my-8 md:my-10">
+
+      <section class="bg-purple-100 rounded-xl shadow-lg p-4 sm:p-6 mb-8">
+      <h2 class="text-2xl sm:text-3xl font-semibold mb-3">Sobre mí</h2>
+      <p class="leading-relaxed">
+        Soy coder del programa <strong>Riwi</strong>, donde me formo como desarrolladora de software.
+        Me gusta aprender cosas nuevas y llevarlas a la práctica construyendo proyectos.
+        Actualmente busco una oportunidad de prácticas para seguir creciendo y aportar a un equipo.
+      </p>
+    </section>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+
+      <section class="bg-purple-200 rounded-xl shadow-lg p-4 sm:p-6">
+        <h2 class="text-xl sm:text-2xl font-semibold mb-3">Habilidades</h2>
+        <ul class="flex flex-wrap gap-2">
+          <li class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full">HTML</li>
+          <li class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full">CSS</li>
+          <li class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full">Bootstrap</li>
+          <li class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full">Tailwind CSS</li>
+          <li class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full">MySQL</li>
+          <li class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full">Git y GitHub</li>
+        </ul>
+      </section>
+
+      <section class="bg-white border border-purple-200 rounded-xl shadow-lg p-4 sm:p-6">
+        <h2 class="text-xl sm:text-2xl font-semibold mb-3">Aprendiendo</h2>
+        <ul class="list-disc pl-5 space-y-1">
+          <li>Fundamentos de JavaScript y programación interactiva</li>
+          <li>Diseño web responsivo con Tailwind CSS</li>
+          <li>Inteligencia artificial y modelos LLM</li>
+        </ul>
+      </section>
+
+    </div>
+
+    <section class="mb-8">
+      <h2 class="text-2xl sm:text-3xl font-semibold mb-4">Proyectos</h2>
+
+      <article class="bg-white border border-gray-200 rounded-lg p-5 sm:p-6 shadow-sm hover:shadow-md transition">
+        <h3 class="text-xl font-semibold mb-2">Rueda Libre</h3>
+        <p class="leading-relaxed mb-3">
+          Sitio web de varias páginas para un servicio de alquiler de bicicletas
+          y recorridos guiados, con formulario de reservas, tarifas y galería de rutas.
+        </p>
+
+        <ul class="list-disc pl-5 space-y-1 mb-4">
+          <li>Diseño responsive probado en móvil, tablet y escritorio.</li>
+          <li>Formulario con validaciones y buenas prácticas de accesibilidad.</li>
+          <li>Migración de CSS propio a Bootstrap, reduciendo el CSS casi a la mitad.</li>
+        </ul>
+
+        <ul class="flex flex-wrap gap-2 mb-5">
+          <li class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full">HTML</li>
+          <li class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full">CSS</li>
+          <li class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full">Bootstrap</li>
+          <li class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full">GitHub Pages</li>
+        </ul>
+
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a href="https://puella-non.github.io/rueda-libre/" target="_blank" rel="noopener noreferrer"
+             class="text-center bg-[var(--titulos)] text-white font-semibold px-4 py-2 rounded-lg hover:opacity-90">
+            Ver sitio
+          </a>
+          <a href="https://github.com/Puella-non/rueda-libre" target="_blank" rel="noopener noreferrer"
+             class="text-center border border-[var(--titulos)] text-[var(--titulos)] font-semibold px-4 py-2 rounded-lg hover:bg-purple-50">
+            Ver código
+          </a>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="bg-slate-900 text-white text-center py-8">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="!text-white text-xl font-semibold mb-4">Contacto</h2>
+      <div class="flex flex-col sm:flex-row justify-center gap-3">
+        <a href="https://github.com/Puella-non" target="_blank" rel="noopener noreferrer"
+           class="border border-white text-white font-semibold px-4 py-2 rounded-lg hover:bg-white hover:text-slate-900 transition">
+          Mi GitHub
+        </a>
+        <a href="mailto:lauraeswe.1002@gmail.com"
+           class="bg-white text-slate-900 font-semibold px-4 py-2 rounded-lg hover:bg-pink-200 transition">
+          Escríbeme
+        </a>
+      </div>
+      <p class="text-sm text-slate-400 mt-6">&copy; 2026 Laura Sofía Agudelo Morales · Coder Riwi</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

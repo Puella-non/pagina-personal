@@ -1,0 +1,18 @@
+/* 1. Paleta de colores */
+:root {
+  --fondo: #f5f7fa;
+  --texto: #222222;
+  --titulos: #5b3df5;
+  --enlaces: #5b3df5;
+  --enlaces-hover: #ff5c8a;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+}
+
+h2 {
+  color: var(--titulos);
+}
